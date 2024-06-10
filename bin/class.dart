@@ -12,6 +12,16 @@ class Person {
 
 }
 
+/// Cara membuat Extension Method
+// ignore: camel_case_extensions
+extension sayGoodByeOnPerson on Person {
+
+  void sayGoodBye(String paramName) {
+    print("Good Bye $paramName, from $name");
+  }
+
+}
+
 void main() {
 
   /**
@@ -28,6 +38,9 @@ void main() {
   print(person1.name);
   print(person1.address);
   print(person1.country);
+
+  /// Cara mengakses Extension Method
+  person1.sayGoodBye("Roger");
 
   /// Cara mengakses Method
   person1.sayHello("Khaleed");
