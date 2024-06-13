@@ -12,10 +12,19 @@ class Car {
 
 }
 
-class Avanza implements Car {
+abstract class HasBrand {
+
+  String getBrand();
+
+}
+
+class Avanza implements Car, HasBrand {
 
   @override
   String name = "Avanza";
+
+  @override
+  String getBrand() => "Toyota";
 
   @override
   void drive() {
