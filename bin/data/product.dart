@@ -7,5 +7,10 @@ class Product {
   int? getQuantity() {
     return _quantity;
   }
+
+  @override
+  String toString() {
+    return "Product {id = $id, name = $name, quantity = $_quantity}";
+  }
   
 }
