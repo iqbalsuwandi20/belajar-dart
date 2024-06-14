@@ -11,6 +11,9 @@ class Sum {
 
 }
 
+typedef Jumlah = Sum;
+typedef Total = Sum;
+
 void main() {
 
   Sum sum = Sum(123, 74982);
