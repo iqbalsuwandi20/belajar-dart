@@ -1,23 +1,22 @@
-import 'dart:collection';
+// import 'dart:collection';
 
-class StringEntry extends LinkedListEntry<StringEntry> {
+// class StringEntry extends LinkedListEntry<StringEntry> {
 
-  String value;
+//   String value;
 
-  StringEntry(this.value);
+//   StringEntry(this.value);
 
-}
+// }
 
-void main() {
+// void main() {
 
-  final linkedList = LinkedList<StringEntry>();
+//   final linkedList = LinkedList<StringEntry>();
 
-  linkedList.add(StringEntry("Iqbal"));
-  linkedList.add(StringEntry("Suwandi"));
-  linkedList.add(StringEntry("Roger"));
+//   linkedList.add(StringEntry("Iqbal"));
+//   linkedList.add(StringEntry("Suwandi"));
+//   linkedList.add(StringEntry("Roger"));
 
-  for (var element in linkedList) {
-    print(element.value);
-  }
-  
-}
+//   for (var element in linkedList) {
+//     print(element.value);
+//   }
+// }
