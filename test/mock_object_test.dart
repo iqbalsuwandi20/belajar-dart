@@ -36,6 +36,15 @@ void main() {
       verify(bookRepository.findById("1")).called(1);
     });
 
+    // test("Find book by id iqbalsuwandi20", (){
+    //   when(bookRepository.findById(argThat(startsWith("iqbal"))))
+    //     .thenReturn(Book("iqbalsuwandi20", "Tutorial Dart", 500000));
+      
+    //   var book = bookService.find("iqbalsuwandi20");
+    //   expect(book, equals(Book("iqbalsuwandi20", "Tutorial Dart", 500000)));
+
+    //   verify(bookRepository.findById(any)).called(1);
+    // });
   });
 
 }
